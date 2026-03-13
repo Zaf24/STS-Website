@@ -6,20 +6,50 @@ import kolamImage from "@/assets/kolam-pattern.jpg";
 import heritageLamp from "@/assets/heritage-lamp.jpg";
 
 const milestones = [
-  { year: "1932", event: "Singapore Tamil Society founded by a group of Tamil intellectuals and community leaders." },
-  { year: "1940s", event: "Continued cultural activities despite wartime challenges, preserving Tamil identity." },
-  { year: "1960s", event: "Formalised Tamil language education programmes and literary initiatives." },
-  { year: "1980s", event: "Expanded community outreach with cultural festivals, youth engagement, and partnerships." },
-  { year: "2000s", event: "Launched flagship events like Sorkanal. Modernised governance and operations." },
-  { year: "2010s", event: "Embraced digital initiatives and grew membership to new heights." },
-  { year: "Present", event: "A thriving cultural institution serving 2,000+ members with 50+ annual events." },
+  {
+    year: "1932",
+    event:
+      "The organisation is registered as the Tamils Reform Association under the leadership of Mr. G. Sarangapany.",
+  },
+  {
+    year: "1930s–1950s",
+    event:
+      "Begins its journey as one of Singapore’s earliest Tamil organisations, supporting language, culture, and community life.",
+  },
+  {
+    year: "Renaming",
+    event:
+      "The association is renamed Singai Tamil Sangam (Singapore Tamil Society) to reflect its evolving role in the community.",
+  },
+  {
+    year: "2019–2025",
+    event:
+      "Over 1,000 beneficiaries impacted through programmes, initiatives, and events led by a growing volunteer base.",
+  },
+  {
+    year: "Today",
+    event:
+      "Recognised as the oldest Tamil organisation in Singapore, continuing to build a strong and vibrant Tamil community.",
+  },
 ];
 
 const leaders = [
-  { name: "Dr. Anand Krishnan", role: "President" },
-  { name: "Mrs. Lakshmi Devi", role: "Vice President" },
-  { name: "Mr. Rajesh Muthusamy", role: "Secretary" },
-  { name: "Ms. Kavitha Sundaram", role: "Treasurer" },
+  { name: "K Karthikeyan", role: "President" },
+  { name: "Viji Jagadeesh, PBM", role: "Vice President (Membership and Funding)" },
+  { name: "Sanjay Muthukumaran", role: "Vice President (Projects)" },
+  { name: "Rajan Manogaran", role: "Honorary Treasurer" },
+  { name: "Moola Venkatesh Ashwini", role: "Honorary Secretary" },
+  { name: "Gopikka Narasa Lakshmi N", role: "Assistant Secretary" },
+  { name: "V Eashwar", role: "Assistant Treasurer" },
+  { name: "Ramanujam Saravanan", role: "Internal Auditor" },
+  { name: "Kumaran Barathan", role: "Committee Member" },
+  { name: "Kumaran Pillai", role: "Committee Member" },
+  { name: "Malligha D/O Krishnasamy", role: "Committee Member" },
+  { name: "Durairaj Marudeeswaran", role: "Committee Member" },
+  { name: "Yugesh Kannan", role: "Committee Member" },
+  { name: "Maria Immaculate", role: "Committee Member" },
+  { name: "T Sakthi Nivas", role: "Committee Member" },
+  { name: "Ashreena Bte Mohamed Zakir", role: "Committee Member" },
 ];
 
 const AboutPage = () => {
@@ -53,13 +83,13 @@ const AboutPage = () => {
               </h2>
               <div className="space-y-4 text-muted-foreground leading-relaxed">
                 <p>
-                  In 1932, a small group of Tamil scholars, writers, and community activists in Singapore came together with a shared vision: to create a society that would preserve and promote the Tamil language and its rich literary heritage.
+                  The Singapore Tamil Society traces its roots to 1932, when it was registered as the Tamils Reform Association under the leadership of Mr. G. Sarangapany. From the very beginning, its purpose has been to uplift the Tamil community and ensure that Tamil language and culture continue to thrive in Singapore.
                 </p>
                 <p>
-                  What began as intimate literary gatherings has grown into one of Singapore's most respected cultural institutions — an organisation that bridges generations, nurtures artistic expression, and keeps the Tamil spirit alive in a modern, multicultural city-state.
+                  Over time, the organisation evolved and became known as Singai Tamil Sangam, reflecting a renewed commitment to building a strong and vibrant Tamil community that speaks, appreciates, and takes pride in Tamizh, while being confidently bilingual in Singapore&apos;s multicultural society.
                 </p>
                 <p>
-                  Today, STS serves as both guardian and innovator — honouring ancient traditions while creating fresh, relevant programmes that speak to contemporary Tamil identity.
+                  Today, Singapore Tamil Society continues this journey by creating programmes, events, and initiatives that connect generations, nurture Tamil identity, and support the community&apos;s social, cultural, and educational growth.
                 </p>
               </div>
             </ScrollReveal>
@@ -82,14 +112,14 @@ const AboutPage = () => {
               <SectionLabel english="Mission" tamil="நோக்கம்" />
               <h3 className="font-display text-2xl font-bold text-foreground mb-4">What We Stand For</h3>
               <p className="text-muted-foreground leading-relaxed">
-                To preserve, promote, and evolve Tamil language, literature, arts, and cultural heritage in Singapore through community-driven programmes, events, and educational initiatives that connect generations and inspire pride in Tamil identity.
+                To build a strong and vibrant Tamil community in Singapore that continues to speak and appreciate Tamizh, while being confidently bilingual and actively engaged in the nation&apos;s multicultural life.
               </p>
             </ScrollReveal>
             <ScrollReveal delay={0.15}>
               <SectionLabel english="Vision" tamil="தொலைநோக்கு" />
               <h3 className="font-display text-2xl font-bold text-foreground mb-4">Where We're Headed</h3>
               <p className="text-muted-foreground leading-relaxed">
-                To be the foremost cultural institution for Tamil heritage in Southeast Asia — a living, breathing community platform where tradition meets innovation, and every Tamil Singaporean can find connection, expression, and belonging.
+                To remain a trusted cornerstone for Tamil language, culture, and community — uplifting generations through service, programmes, and partnerships that keep Tamil heritage alive and relevant in modern Singapore.
               </p>
             </ScrollReveal>
           </div>

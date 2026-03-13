@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X } from "lucide-react";
+import stsLogo from "@/assets/STS LOGO FINAL_edited.png-2.avif";
 import { motion, AnimatePresence } from "framer-motion";
 
 const navLinks = [
@@ -36,9 +37,19 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-md border-b border-border">
       <div className="container-editorial flex items-center justify-between h-14 md:h-20">
         <Link to="/" className="flex items-center gap-2 min-w-0">
-          <span className="font-display text-base sm:text-xl md:text-2xl font-bold text-primary tracking-tight truncate">
-            Singapore Tamil Society
-          </span>
+          <img
+            src={stsLogo}
+            alt="Singapore Tamil Society logo"
+            className="h-8 w-8 md:h-10 md:w-10 rounded-sm object-contain shrink-0"
+          />
+          <div className="flex flex-col leading-tight min-w-0">
+            <span className="font-tamil font-semibold text-base sm:text-lg md:text-xl text-primary truncate">
+              சிங்கப்பூர் தமிழ்ச் சங்கம்
+            </span>
+            <span className="font-display text-[10px] sm:text-xs md:text-sm text-muted-foreground tracking-wide uppercase">
+              Singapore Tamil Society
+            </span>
+          </div>
         </Link>
 
         {/* Desktop nav */}

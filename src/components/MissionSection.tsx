@@ -15,14 +15,14 @@ const MissionSection = () => {
               <span className="text-accent">Tomorrow</span>
             </h2>
             <p className="text-muted-foreground text-base sm:text-lg leading-relaxed mb-4 sm:mb-6">
-              The Singapore Tamil Society exists to preserve, celebrate, and evolve Tamil cultural identity. Through language, literature, arts, and community action, we connect generations and keep our heritage vibrant and relevant.
+              The Singapore Tamil Society is the oldest Tamil organisation in Singapore. Founded in 1932 as the Tamils Reform Association under Mr. G. Sarangapany and later renamed Singai Tamil Sangam, our purpose is to build a strong and vibrant Tamil community that continues to speak and appreciate Tamizh, while being confidently bilingual.
             </p>
             <div className="grid grid-cols-2 gap-4 sm:gap-6 mt-6 sm:mt-8">
               {[
-                { number: "90+", label: "Years of Heritage" },
-                { number: "50+", label: "Annual Events" },
-                { number: "2,000+", label: "Active Members" },
-                { number: "15+", label: "Active Programmes" },
+                { number: "1932", label: "Year Founded" },
+                { number: "1,000+", label: "Beneficiaries (2019–2025)" },
+                { number: "60", label: "Volunteers in 2025" },
+                { number: "1st", label: "Oldest Tamil Organisation in Singapore" },
               ].map((stat) => (
                 <div key={stat.label}>
                   <p className="font-display text-2xl sm:text-3xl font-bold text-primary">

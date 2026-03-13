@@ -10,41 +10,44 @@ import heroCultural from "@/assets/hero-cultural.jpg";
 
 const upcomingEvents = [
   {
-    title: "Sorkanal 2026",
-    tamil: "சொர்க்கனல் 2026",
-    date: "15 June 2026",
-    venue: "National Library, Singapore",
-    description: "The 21st edition of our flagship Tamil word game competition. Open registration now available.",
+    title: "Sorkanal 2025",
+    tamil: "சொற்கனல் 2025",
+    date: "2025",
+    venue: "To be announced",
+    description:
+      "An annual inter-university Tamil debate competition, inaugurated in 2023, providing a platform for higher-level Tamil debates.",
     image: eventLiterary,
     tag: "Flagship",
   },
   {
-    title: "Odi Vilaiyaadu Nanba 2026",
-    tamil: "ஓடி விளையாடு நண்பா 2026",
-    date: "20 July 2026",
-    venue: "Bishan Community Centre",
-    description: "Annual community sports day for Tamil families. Games, food, music, and fellowship.",
+    title: "Odi Vilaiyaadu Nanba",
+    tamil: "ஓடி விளையாடு நண்பா",
+    date: "2025",
+    venue: "To be announced",
+    description:
+      "A Tamil Language Festival event where teams race through themed stations inspired by the Aimperum Kaapiyangal and Moovendargal, blending games, culture, and language.",
     image: communityYouth,
-    tag: "Community",
+    tag: "Festival",
   },
   {
-    title: "Tamil Literary Festival 2026",
-    tamil: "தமிழ் இலக்கிய விழா 2026",
-    date: "12 September 2026",
-    venue: "Esplanade, Singapore",
-    description: "A weekend celebration of Tamil literature featuring authors, poets, and panel discussions.",
+    title: "Sports Event with SGIA",
+    tamil: "விளையாட்டு நிகழ்வு",
+    date: "End October (upcoming)",
+    venue: "To be announced",
+    description:
+      "A sports event in conjunction with SGIA, catering to secondary and tertiary students through games such as Captain’s Ball, badminton, and more.",
     image: heroCultural,
-    tag: "Festival",
+    tag: "Sports",
   },
 ];
 
 const pastEvents = [
-  { title: "Sorkanal 2025", year: "2025" },
-  { title: "Pongal Celebration 2025", year: "2025" },
-  { title: "Tamil New Year Gala 2025", year: "2025" },
-  { title: "Sorkanal 2024", year: "2024" },
-  { title: "Youth Leadership Summit 2024", year: "2024" },
-  { title: "Heritage Walk 2024", year: "2024" },
+  { title: "Oru Kutti Kadhai Sollata – Micro-Short Film Competition", year: "2020" },
+  { title: "Maathi Yosi – Digital Bommalattam Workshop and Competition", year: "2021" },
+  { title: "Oru Kelichitra Kadhai Sollatta – Comic Slideshow Competition", year: "2022" },
+  { title: "ItsRainingRaincoats Christmas Drive", year: "2022" },
+  { title: "Beach Bonding Day", year: "2022–2023" },
+  { title: "Project Thaanam", year: "2023" },
 ];
 
 const EventsPage = () => {

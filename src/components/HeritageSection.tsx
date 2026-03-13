@@ -3,11 +3,26 @@ import SectionLabel from "./SectionLabel";
 import heritageLamp from "@/assets/heritage-lamp.jpg";
 
 const milestones = [
-  { year: "1932", event: "Founded as a gathering of Tamil intellectuals and community leaders in Singapore" },
-  { year: "1950s", event: "Established formal programmes for Tamil language education and literary pursuits" },
-  { year: "1980s", event: "Expanded community outreach with cultural festivals and youth engagement" },
-  { year: "2000s", event: "Launched flagship events including Sorkanal and modernised operations" },
-  { year: "Today", event: "A thriving institution serving 2,000+ members with 50+ annual events" },
+  {
+    year: "1932",
+    event:
+      "The organisation is registered as the Tamils Reform Association under the leadership of Mr. G. Sarangapany.",
+  },
+  {
+    year: "Renaming",
+    event:
+      "The association is renamed Singai Tamil Sangam (Singapore Tamil Society), reflecting its evolving role in the community.",
+  },
+  {
+    year: "2019–2025",
+    event:
+      "More than 1,000 beneficiaries are impacted through programmes, initiatives, and events led by a growing volunteer base.",
+  },
+  {
+    year: "Today",
+    event:
+      "Recognised as the oldest Tamil organisation in Singapore, continuing to build a strong and vibrant Tamil community.",
+  },
 ];
 
 const HeritageSection = () => {

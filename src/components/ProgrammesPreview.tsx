@@ -10,7 +10,7 @@ const programmes = [
     title: "Sorkanal",
     tamil: "சொர்க்கனல்",
     description:
-      "A flagship Tamil word game competition that tests vocabulary, wit, and linguistic mastery across generations.",
+      "An annual inter-university Tamil debate competition, inaugurated in 2023, providing a platform for higher-level Tamil debates.",
     image: eventLiterary,
     tag: "Flagship Event",
   },
@@ -18,7 +18,7 @@ const programmes = [
     title: "Odi Vilaiyaadu Nanba",
     tamil: "ஓடி விளையாடு நண்பா",
     description:
-      "A vibrant community sports and cultural programme that brings families together through play and fellowship.",
+      "A high-energy Tamil Language Festival event where teams race through themed stations blending games, culture, and language.",
     image: communityYouth,
     tag: "Community Programme",
   },

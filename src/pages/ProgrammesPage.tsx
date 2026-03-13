@@ -12,33 +12,57 @@ const programmes = [
   {
     title: "Sorkanal",
     tamil: "சொர்க்கனல்",
-    category: "Flagship Competition",
-    description: "A premier Tamil word game competition that tests vocabulary, linguistic mastery, and quick thinking. Participants from all ages compete in rounds of increasing difficulty, celebrating the richness of the Tamil language.",
-    highlights: ["Annual competition since 2005", "Open to all age groups", "Televised finals", "Cash prizes and trophies"],
+    category: "Flagship Debate Competition",
+    description:
+      "Sorkanal (சொற்கனல்) is an annual inter-university Tamil debate competition, inaugurated in 2023. It aims to enhance university students' interest in Tamil and provide them a platform to debate topics at a level beyond school debates.",
+    highlights: [
+      "Annual inter-university Tamil debate competition",
+      "Inaugurated in 2023",
+      "Platform for higher-level Tamil debates",
+      "Encourages critical thinking in Tamil",
+    ],
     image: eventLiterary,
   },
   {
     title: "Odi Vilaiyaadu Nanba",
     tamil: "ஓடி விளையாடு நண்பா",
     category: "Community Sports",
-    description: "A vibrant community sports and cultural programme that brings Tamil families together through play, fellowship, and healthy competition. From traditional games to modern sports, this programme builds bonds across generations.",
-    highlights: ["Family-friendly events", "Traditional & modern games", "Cultural performances", "Community bonding"],
+    description:
+      "Odi Vilaiyaadu Nanba brings Tamil heritage to life through play and teamwork. As part of the Tamil Language Festival, teams race through stations themed on the Aimperum Kaapiyangal and Moovendargal, blending speed with culture, language, and collaboration.",
+    highlights: [
+      "Flagship Tamil Language Festival event",
+      "Race-style format with themed stations",
+      "Centred on Aimperum Kaapiyangal and Moovendargal",
+      "Celebrates Tamil identity through games and teamwork",
+    ],
     image: communityYouth,
   },
   {
-    title: "Tamil Literary Circle",
-    tamil: "தமிழ் இலக்கிய வட்டம்",
-    category: "Literature & Arts",
-    description: "A regular gathering of Tamil literature enthusiasts for readings, discussions, and creative writing workshops. The circle nurtures new voices while honouring the great Tamil literary tradition.",
-    highlights: ["Monthly meetings", "Guest author sessions", "Poetry workshops", "Published anthologies"],
+    title: "Maathi Yosi – Digital Bommalattam",
+    tamil: "மாத்தி யோசி",
+    category: "Workshops & Competitions",
+    description:
+      "As part of the Tamil Language Festival 2021, the Youth Wing introduced a fresh take on Bommalattam by digitising the traditional art form. The virtual show, streamed via Facebook Live, attracted over 1,000 views.",
+    highlights: [
+      "Part of Tamil Language Festival 2021",
+      "Digitised traditional Bommalattam",
+      "Streamed via Facebook Live",
+      "Reached over 1,000 viewers",
+    ],
     image: kolamImage,
   },
   {
-    title: "Youth Wing",
-    tamil: "இளைஞர் பிரிவு",
-    category: "Youth Development",
-    description: "Dedicated programmes for young Tamil Singaporeans to explore their cultural identity through arts, leadership, community service, and creative expression.",
-    highlights: ["Leadership camps", "Cultural workshops", "Community service", "Mentorship programme"],
+    title: "Kutties Koothu & Elderlies Befriender",
+    tamil: "குட்டீஸ் கூத்து / மூத்தோர் நட்பு",
+    category: "Community Outreach",
+    description:
+      "In partnership with Sree Narayana Mission, STS youth lead monthly cultural sessions for elderly residents, celebrating festivals through crafts and games. These initiatives showcase youth-led compassion and intergenerational bonding.",
+    highlights: [
+      "Monthly cultural sessions for elderly residents",
+      "Partnership with Sree Narayana Mission",
+      "Festival-themed crafts and games",
+      "Strengthens intergenerational bonds",
+    ],
     image: communityYouth,
   },
 ];
