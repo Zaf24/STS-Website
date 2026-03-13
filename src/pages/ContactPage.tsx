@@ -37,7 +37,7 @@ const ContactPage = () => {
         <div className="container-editorial">
           <ScrollReveal>
             <SectionLabel english="Contact" tamil="தொடர்பு" />
-            <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold text-foreground leading-tight max-w-3xl">
+            <h1 className="font-display text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-foreground leading-tight max-w-3xl">
               Let's Connect
             </h1>
             <p className="text-lg text-muted-foreground mt-6 max-w-2xl leading-relaxed">

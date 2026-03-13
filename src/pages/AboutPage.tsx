@@ -32,7 +32,7 @@ const AboutPage = () => {
         <div className="container-editorial">
           <ScrollReveal>
             <SectionLabel english="About Us" tamil="எங்களைப் பற்றி" />
-            <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold text-foreground leading-tight max-w-3xl">
+            <h1 className="font-display text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-foreground leading-tight max-w-3xl">
               Custodians of Tamil Culture in Singapore
             </h1>
             <p className="text-lg text-muted-foreground mt-6 max-w-2xl leading-relaxed">
