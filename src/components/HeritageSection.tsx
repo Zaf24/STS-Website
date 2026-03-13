@@ -31,9 +31,9 @@ const HeritageSection = () => {
               A Legacy of Cultural Stewardship
             </h2>
 
-            <div className="space-y-8">
+            <div className="space-y-6 sm:space-y-8">
               {milestones.map((m, i) => (
-                <div key={i} className="flex gap-6">
+                <div key={i} className="flex gap-4 sm:gap-6">
                   <div className="flex flex-col items-center">
                     <span className="font-display text-sm font-bold text-secondary whitespace-nowrap w-16">
                       {m.year}
