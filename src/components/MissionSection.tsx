@@ -9,7 +9,7 @@ const MissionSection = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 md:gap-16 items-center">
           <ScrollReveal>
             <SectionLabel english="Our Purpose" tamil="எங்கள் நோக்கம்" />
-            <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-foreground leading-tight mb-6">
+            <h2 className="font-display text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-foreground leading-tight mb-4 sm:mb-6">
               A Living Bridge Between{" "}
               <span className="text-primary">Heritage</span> and{" "}
               <span className="text-accent">Tomorrow</span>
