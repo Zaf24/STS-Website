@@ -14,7 +14,7 @@ const HeritageSection = () => {
   return (
     <section className="section-padding bg-foreground text-primary-foreground overflow-hidden">
       <div className="container-editorial">
-        <div className="grid grid-cols-1 lg:grid-cols-5 gap-16">
+        <div className="grid grid-cols-1 lg:grid-cols-5 gap-10 md:gap-16">
           {/* Image */}
           <ScrollReveal className="lg:col-span-2">
             <img
