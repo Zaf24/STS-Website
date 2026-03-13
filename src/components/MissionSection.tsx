@@ -43,7 +43,7 @@ const MissionSection = () => {
                 alt="Intricate kolam pattern representing Tamil artistic heritage"
                 className="w-full rounded-sm object-cover aspect-[4/5]"
               />
-              <div className="absolute -bottom-4 -left-4 w-24 h-24 border-2 border-secondary rounded-sm" />
+              <div className="absolute -bottom-3 -left-3 sm:-bottom-4 sm:-left-4 w-16 sm:w-24 h-16 sm:h-24 border-2 border-secondary rounded-sm" />
             </div>
           </ScrollReveal>
         </div>
