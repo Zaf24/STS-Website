@@ -1,73 +1,52 @@
-# Welcome to your Lovable project
+# STS-Website
 
-## Project info
+This repository contains the source code for the revamped website of the **Singapore Tamil Society (STS)**.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+The goal of this project is to modernise the existing site at `https://www.sts.sg`, improve usability, and better showcase STS’s work for the Tamil community in Singapore.
 
-## How can I edit this code?
+## About Singapore Tamil Society
 
-There are several ways of editing your application.
+Founded in **1932** (originally as the *Tamils Reform Association*), the Singapore Tamil Society is one of the oldest Tamil organisations in Singapore.
+Over the decades, it has evolved into a community-focused society dedicated to:
 
-**Use Lovable**
+- **Preserving and promoting Tamil language and culture**
+- **Creating opportunities for education, mentorship, and career development**
+- **Building a strong, vibrant Tamil community in Singapore**
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+STS runs a wide range of cultural programmes, youth initiatives, community outreach efforts, and collaborations with partners across Singapore.
 
-Changes made via Lovable will be committed automatically to this repo.
+## Website Overview
 
-**Use your preferred IDE**
+The revamped STS-Website is structured around the key sections of the existing public site:
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- **Home**: Introduces STS and its mission to preserve and promote Tamil language, culture, and community spirit, highlighting upcoming events and flagship initiatives.
+- **About Us**: Shares STS’s history, founding story, and purpose, including its roots as one of Singapore’s oldest Tamil organisations and its focus on empowering the Tamil community.
+- **Members / Our Team**: Presents the management committee and key office bearers who oversee funding, membership, projects, finance, and operations, as well as opportunities to volunteer with STS.
+- **Projects / Events**: Showcases STS’s flagship programmes and events (such as debates, cultural performances, workshops, competitions, and community initiatives) that celebrate Tamil heritage and engage youth and families.
+- **Gallery**: Highlights past events and flagship projects through photos and descriptions, capturing the energy of community programmes, cultural festivals, and outreach efforts.
+- **Contact**: Provides a way for visitors to reach out to STS for enquiries, collaborations, volunteering, and general communication.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## Tech Stack
 
-Follow these steps:
+This project is implemented as a modern web application using:
+
+- **Vite**
+- **TypeScript**
+- **React**
+- **shadcn-ui**
+- **Tailwind CSS**
+
+## Development
+
+To run the project locally:
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+npm install
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+Then open the development URL shown in your terminal (typically `http://localhost:5173`) in your browser.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## Purpose of This Repository
 
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+This repository is specifically for the **revamp of the Singapore Tamil Society website**, and is not connected to any third-party site builders or hosted platforms.
