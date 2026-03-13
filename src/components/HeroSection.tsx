@@ -5,15 +5,15 @@ import heroImage from "@/assets/hero-cultural.jpg";
 
 const HeroSection = () => {
   return (
-    <section className="relative min-h-screen flex items-end pb-20 md:pb-28 overflow-hidden">
+    <section className="relative min-h-[100svh] flex items-end pb-16 sm:pb-20 md:pb-28 overflow-hidden">
       {/* Background image */}
       <div className="absolute inset-0">
         <img
           src={heroImage}
           alt="Tamil community cultural celebration in Singapore"
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover object-center"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-foreground via-foreground/60 to-foreground/20" />
+        <div className="absolute inset-0 bg-gradient-to-t from-foreground via-foreground/70 to-foreground/10" />
       </div>
 
       {/* Content */}
@@ -24,27 +24,27 @@ const HeroSection = () => {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="max-w-3xl"
         >
-          <p className="font-tamil text-secondary/80 text-lg mb-3">
+          <p className="font-tamil text-secondary/80 text-base sm:text-lg mb-2 sm:mb-3">
             சிங்கப்பூர் தமிழ்ச் சங்கம்
           </p>
-          <h1 className="font-display text-4xl md:text-6xl lg:text-7xl font-bold text-primary-foreground leading-[1.1] mb-6">
+          <h1 className="font-display text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-bold text-primary-foreground leading-[1.1] mb-4 sm:mb-6">
             Rooted in Heritage.{" "}
             <span className="text-secondary">Alive</span> in Community.
           </h1>
-          <p className="text-lg md:text-xl text-primary-foreground/70 max-w-xl mb-8 font-body leading-relaxed">
+          <p className="text-base sm:text-lg md:text-xl text-primary-foreground/70 max-w-xl mb-6 sm:mb-8 font-body leading-relaxed">
             Since 1932, the Singapore Tamil Society has been the cultural heartbeat of the Tamil community — nurturing language, arts, and belonging.
           </p>
-          <div className="flex flex-wrap gap-4">
+          <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
             <Link
               to="/programmes"
-              className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-primary-foreground font-body font-medium text-sm rounded transition-all hover:opacity-90"
+              className="inline-flex items-center justify-center gap-2 px-6 py-3.5 sm:py-3 bg-primary text-primary-foreground font-body font-medium text-sm rounded transition-all hover:opacity-90 active:scale-[0.98]"
             >
               Explore Programmes
               <ArrowRight size={16} />
             </Link>
             <Link
               to="/about"
-              className="inline-flex items-center gap-2 px-6 py-3 border border-primary-foreground/30 text-primary-foreground font-body font-medium text-sm rounded transition-all hover:bg-primary-foreground/10"
+              className="inline-flex items-center justify-center gap-2 px-6 py-3.5 sm:py-3 border border-primary-foreground/30 text-primary-foreground font-body font-medium text-sm rounded transition-all hover:bg-primary-foreground/10 active:scale-[0.98]"
             >
               Our Story
             </Link>

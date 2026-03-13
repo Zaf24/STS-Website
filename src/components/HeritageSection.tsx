@@ -14,7 +14,7 @@ const HeritageSection = () => {
   return (
     <section className="section-padding bg-foreground text-primary-foreground overflow-hidden">
       <div className="container-editorial">
-        <div className="grid grid-cols-1 lg:grid-cols-5 gap-16">
+        <div className="grid grid-cols-1 lg:grid-cols-5 gap-10 md:gap-16">
           {/* Image */}
           <ScrollReveal className="lg:col-span-2">
             <img
@@ -27,19 +27,19 @@ const HeritageSection = () => {
           {/* Timeline */}
           <ScrollReveal className="lg:col-span-3" delay={0.2}>
             <SectionLabel english="Heritage" tamil="பாரம்பரியம்" />
-            <h2 className="font-display text-3xl md:text-4xl font-bold leading-tight mb-10">
+            <h2 className="font-display text-2xl sm:text-3xl md:text-4xl font-bold leading-tight mb-8 md:mb-10">
               A Legacy of Cultural Stewardship
             </h2>
 
-            <div className="space-y-8">
+            <div className="space-y-6 sm:space-y-8">
               {milestones.map((m, i) => (
-                <div key={i} className="flex gap-6">
+                <div key={i} className="flex gap-4 sm:gap-6">
                   <div className="flex flex-col items-center">
                     <span className="font-display text-sm font-bold text-secondary whitespace-nowrap w-16">
                       {m.year}
                     </span>
                   </div>
-                  <div className="border-l border-primary-foreground/20 pl-6 pb-2">
+                  <div className="border-l border-primary-foreground/20 pl-4 sm:pl-6 pb-2">
                     <p className="text-primary-foreground/70 leading-relaxed">
                       {m.event}
                     </p>

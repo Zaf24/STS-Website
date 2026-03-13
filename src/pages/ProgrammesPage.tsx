@@ -48,11 +48,11 @@ const ProgrammesPage = () => {
     <div className="min-h-screen">
       <Navbar />
 
-      <section className="pt-32 pb-20 bg-background">
+      <section className="pt-24 md:pt-32 pb-12 md:pb-20 bg-background">
         <div className="container-editorial">
           <ScrollReveal>
             <SectionLabel english="Programmes" tamil="நிகழ்ச்சிகள்" />
-            <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold text-foreground leading-tight max-w-3xl">
+            <h1 className="font-display text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-foreground leading-tight max-w-3xl">
               Programmes That Shape Our Community
             </h1>
             <p className="text-lg text-muted-foreground mt-6 max-w-2xl leading-relaxed">
