@@ -39,7 +39,7 @@ const HeritageSection = () => {
                       {m.year}
                     </span>
                   </div>
-                  <div className="border-l border-primary-foreground/20 pl-6 pb-2">
+                  <div className="border-l border-primary-foreground/20 pl-4 sm:pl-6 pb-2">
                     <p className="text-primary-foreground/70 leading-relaxed">
                       {m.event}
                     </p>

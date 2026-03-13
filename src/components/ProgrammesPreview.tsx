@@ -30,8 +30,8 @@ const ProgrammesPreview = () => {
       <div className="container-editorial">
         <ScrollReveal>
           <SectionLabel english="Signature Programmes" tamil="முக்கிய நிகழ்ச்சிகள்" />
-          <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-4 mb-12">
-            <h2 className="font-display text-3xl md:text-4xl font-bold text-foreground leading-tight max-w-lg">
+          <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-4 mb-8 md:mb-12">
+            <h2 className="font-display text-2xl sm:text-3xl md:text-4xl font-bold text-foreground leading-tight max-w-lg">
               Programmes That Define Our Community
             </h2>
             <Link
