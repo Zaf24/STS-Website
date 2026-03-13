@@ -25,7 +25,7 @@ const MissionSection = () => {
                 { number: "15+", label: "Active Programmes" },
               ].map((stat) => (
                 <div key={stat.label}>
-                  <p className="font-display text-3xl font-bold text-primary">
+                  <p className="font-display text-2xl sm:text-3xl font-bold text-primary">
                     {stat.number}
                   </p>
                   <p className="text-sm text-muted-foreground mt-1">
