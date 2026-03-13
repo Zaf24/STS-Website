@@ -17,7 +17,7 @@ const MissionSection = () => {
             <p className="text-muted-foreground text-base sm:text-lg leading-relaxed mb-4 sm:mb-6">
               The Singapore Tamil Society exists to preserve, celebrate, and evolve Tamil cultural identity. Through language, literature, arts, and community action, we connect generations and keep our heritage vibrant and relevant.
             </p>
-            <div className="grid grid-cols-2 gap-6 mt-8">
+            <div className="grid grid-cols-2 gap-4 sm:gap-6 mt-6 sm:mt-8">
               {[
                 { number: "90+", label: "Years of Heritage" },
                 { number: "50+", label: "Annual Events" },
