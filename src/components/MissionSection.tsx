@@ -6,7 +6,7 @@ const MissionSection = () => {
   return (
     <section className="section-padding bg-background">
       <div className="container-editorial">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 md:gap-16 items-center">
           <ScrollReveal>
             <SectionLabel english="Our Purpose" tamil="எங்கள் நோக்கம்" />
             <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-foreground leading-tight mb-6">
