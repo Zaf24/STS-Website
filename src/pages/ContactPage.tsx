@@ -33,7 +33,7 @@ const ContactPage = () => {
     <div className="min-h-screen">
       <Navbar />
 
-      <section className="pt-32 pb-20 bg-background">
+      <section className="pt-24 md:pt-32 pb-12 md:pb-20 bg-background">
         <div className="container-editorial">
           <ScrollReveal>
             <SectionLabel english="Contact" tamil="தொடர்பு" />
