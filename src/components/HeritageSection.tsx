@@ -27,7 +27,7 @@ const HeritageSection = () => {
           {/* Timeline */}
           <ScrollReveal className="lg:col-span-3" delay={0.2}>
             <SectionLabel english="Heritage" tamil="பாரம்பரியம்" />
-            <h2 className="font-display text-3xl md:text-4xl font-bold leading-tight mb-10">
+            <h2 className="font-display text-2xl sm:text-3xl md:text-4xl font-bold leading-tight mb-8 md:mb-10">
               A Legacy of Cultural Stewardship
             </h2>
 
